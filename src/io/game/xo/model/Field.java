@@ -16,7 +16,9 @@ public class Field {
 
     private final Figure[][] field = new Figure[FIELD_SIZE][FIELD_SIZE];
 
+
     public int getSize() {
+
         return FIELD_SIZE;
     }
 
